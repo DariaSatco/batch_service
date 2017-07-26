@@ -1,0 +1,7 @@
+define w = w+ w-
+generate p p > w w w w
+output 100TeV_4W
+launch
+analysis=OFF
+set run_card ebeam1 50000
+set ebeam2 50000

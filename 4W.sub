@@ -1,0 +1,9 @@
+executable              = 4W_command.sh
+arguments               = $(ClusterId)$(ProcId)
+output                  = 4W.$(ClusterId).$(ProcId).out
+error                   = 4W.$(ClusterId).$(ProcId).err
+log                     = 4W.$(ClusterId).log
+transfer_output_files   = 100TeV_4W/crossx.html
++JobFlavour = "workday"
+RequestCpus = 4
+queue 
